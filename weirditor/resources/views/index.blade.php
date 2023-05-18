@@ -10,9 +10,11 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{asset('css/styles.css')}} " rel="stylesheet" />
+        <link href="{{asset('css/satoshi.css')}} " rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->    
@@ -36,8 +38,8 @@
         <hr class="container">
         <!-- Header-->
         <br>
-        <header class="container py-5" style="background-color:#D9D9D9" >
-            <div class="container px-5">
+        <header class="container py-5" style="background-color:#D9D9D9;" >
+            <div class="container px-5" style="padding:150px;">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
                         <div class="text-center my-5">
@@ -50,6 +52,30 @@
             </div>
         </header>
       
+     {{-- slide 2 --}}
+     <header class="container py-5 mt-5"  style="border: 1px solid black;">
+        <div class="container px-5" style="padding:150px;">
+            <div class="row gx-5 ">
+                <div class="col-lg-6">
+                    <div class="my-5">
+                     <div class="row position-relative">
+                        <div class="col position-absolute top-0 start-0">
+                            <p class="cap-1 text-decoration-none">We are solution
+                            for your aesthetic ✱ 
+                            need to improve 
+                            your building quality</p>
+                        </div>
+                        <div class="col position-absolute start-100 top-0">
+                        <div class="row">1</div>
+                        <div class="row">2</div>
+                        <div class="row">3</div></div>
+                     </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
