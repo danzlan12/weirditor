@@ -54,27 +54,16 @@
       
      {{-- slide 2 --}}
      <header class="container py-5 mt-5"  style="border: 1px solid black;">
-        <div class="container px-5" style="padding:150px;">
-            <div class="row gx-5 ">
-                <div class="col-lg-6">
-                    <div class="my-5">
-                     <div class="row position-relative">
-                        <div class="col position-absolute top-0 start-0">
-                            <p class="cap-1 text-decoration-none">We are solution
-                            for your aesthetic ✱ 
-                            need to improve 
-                            your building quality</p>
+                     <div class="row">
+                        <div class="teks col-6" style="padding: 100px">
+                            <h1><i>We are</i><strong> solution for your aesthetic ✱ 
+                                need to improve 
+                                your building quality</strong>  
+                                </h1>
                         </div>
-                        <div class="col position-absolute start-100 top-0">
-                        <div class="row">1</div>
-                        <div class="row">2</div>
-                        <div class="row">3</div></div>
+                        <div class="col-6 justify-content-center">
+                        123
                      </div>
-                     
-                    </div>
-                </div>
-            </div>
-        </div>
     </header>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
