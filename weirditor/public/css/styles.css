@@ -97,7 +97,7 @@ body {
   background-color: #F9F9F9;
   margin: 0;
   font-family: 'Satoshi-Regular';
-  font-family: var(--bs-body-font-family);
+  font-family: 'Satoshi-Regular';
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -116,6 +116,12 @@ hr {
   opacity: 0.25;
 }
 
+.col{
+  font-family: 'Satoshi-Regular';
+  text-decoration: none;
+  color: black;
+}
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: 'Satoshi-Regular';
   margin-top: 0;
@@ -128,6 +134,30 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family:  'Satoshi-Bold';
  
 }
+.bintang{
+  color: #FF7A00;
+}
+
+.konten3{
+  margin-top: 100px;
+}
+
+.button{
+  border: 1px solid black;
+  border-radius: 100px;
+  text-align: center;
+  margin: 2px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.tulisan{
+  color: #646464;
+  font-family: 'Satoshi-Regular';
+}
+
+
 
 
 h1, .h1 {
@@ -2779,7 +2809,7 @@ textarea.form-control-lg {
 .btn {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
-  --bs-btn-font-family: ;
+  --bs-btn-font-family: 'Satoshi-Regular';
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
@@ -4161,6 +4191,7 @@ textarea.form-control-lg {
 }
 
 .card {
+  border: 1px solid;
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
@@ -4187,7 +4218,6 @@ textarea.form-control-lg {
   background-color: var(--bs-card-bg);
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-  border-radius: var(--bs-card-border-radius);
 }
 .card > hr {
   margin-right: 0;
@@ -4366,6 +4396,224 @@ textarea.form-control-lg {
   --bs-accordion-active-color: #0c63e4;
   --bs-accordion-active-bg: #e7f1ff;
 }
+
+
+@media only screen and (min-width: 1200px){
+.panah-card{
+  position: relative;
+margin-left: 92.3%;
+margin-top: 2.2%;
+  border: 1px solid black;
+  padding: 1%;
+  width: 44px;
+  height: 44px;
+}
+
+.card-bisnis{
+  border: 1px solid black;
+  border-radius: 0;
+  margin-top: 0px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  flex: content;
+  padding: 0;
+}
+
+.kotak{
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  margin-left: 70%;
+  padding: 10px;
+}
+
+.kotak1{
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+}
+
+@media only screen and (min-width: 1400px){
+  .panah-card{
+    position: relative;
+  margin-left: 93.3%;
+  margin-top: 2.2%;
+    border: 1px solid black;
+    padding: 1%;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .card-bisnis{
+    border: 1px solid black;
+    border-radius: 0;
+    margin-top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    flex: content;
+    padding: 0;
+  }
+  }
+
+ 
+  
+
+    @media only screen and (max-width: 1199px){
+      .panah-card{
+        position: relative;
+      margin-left: 95.5%;
+      margin-top: 2.2%;
+        border: 1px solid black;
+        padding: 1%;
+        width: 44px;
+        height: 44px;
+      }
+      
+      .card-bisnis{
+        border: 1px solid black;
+        border-radius: 0;
+        margin-top: 0px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        flex: content;
+        padding: 0;
+      }
+  
+      .kotak{
+        border: 1px solid black;
+        text-decoration: none;
+        color: black;
+        margin-left: 63%;
+        padding: 10px;
+      }
+      
+      .kotak1{
+        border: 1px solid black;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+      }
+      }
+
+      @media only screen and (max-width: 992px){
+        .panah-card{
+          position: relative;
+        margin-left: 94%;
+        margin-top: 2.2%;
+          border: 1px solid black;
+          padding: 1%;
+          width: 44px;
+          height: 44px;
+        }
+        
+        .card-bisnis{
+          border: 1px solid black;
+          border-radius: 0;
+          margin-top: 0px;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          flex: content;
+          padding: 0;
+        }
+    
+        .kotak{
+          border: 1px solid black;
+          text-decoration: none;
+          color: black;
+          margin-left: 63%;
+          padding: 10px;
+        }
+        
+        .kotak1{
+          border: 1px solid black;
+          text-decoration: none;
+          color: black;
+          padding: 10px;
+        }
+        }
+
+        @media only screen and (max-width: 767px){
+          .panah-card{
+            position: relative;
+          margin-left: 92%;
+          margin-top: 2.2%;
+            border: 1px solid black;
+            padding: 1%;
+            width: 44px;
+            height: 44px;
+          }
+          
+          .card-bisnis{
+            border: 1px solid black;
+            border-radius: 0;
+            margin-top: 0px;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            flex: content;
+            padding: 0;
+          }
+      
+          .kotak{
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+            margin-left: 63%;
+            padding: 10px;
+          }
+          
+          .kotak1{
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+          }
+          }
+
+        @media only screen and (max-width: 414px){
+          .panah-card{
+            position: relative;
+          margin-left: 89.3%;
+          margin-top: 2.2%;
+            border: 1px solid black;
+            padding: 1%;
+            width: 44px;
+            height: 44px;
+          }
+          
+          .card-bisnis{
+            border: 1px solid black;
+            border-radius: 0;
+            margin-top: 0px;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            flex: content;
+            padding: 0;
+          }
+      
+          .kotak{
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+            margin-left: 63%;
+            padding: 10px;
+          }
+          
+          .kotak1{
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+          }
+          }
 
 .accordion-button {
   position: relative;
