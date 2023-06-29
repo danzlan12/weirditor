@@ -1,5 +1,4 @@
 @extends('layout.master');
-
 @section('navbar')
 <nav class="navbar navbar-expand-lg">
     <div class="container px-5">
@@ -64,16 +63,16 @@
 @section('footer')
 <div class="container mt-5">
     <div class="row">
-        <div class="col"><h5><img class="mb-2" src="{{asset('img/logo.png')}}" alt=""> <strong>L-Studio</strong></h5></div>
+        <div class="col"><h5><img class="mb-2" src="{{asset('img/logo.png')}}" alt=""> <strong>L-Studio</strong></h5><h6 class="text-muted">Designs that are as functional as they are <br> beautiful, Crafting spaces that leave <br> a lasting impression.</h6></div>
         <div class="col"><h6><strong>Address :</strong></h6><h5><strong>7051 Durham Court Rego Park, NY 11374</strong></h5></div>
         <div class="col"><h6><strong>Work time :</strong></h6><h5><strong>Monday - Friday, </strong></h5><h5><strong>08.00 A.M - 05.00 P.M</strong></h5></div>
     </div>
 <div class="garis-hitam">
     <div class="text-center mt-5 mb-5">
         <a class="col " href="{{("/")}}"><strong>HOME</strong> </a>
-        <a class="col ms-md-5" href="{{("portofolio")}}"><strong>PORTOFOLIO</strong></a>
-        <a class="col ms-md-5"><strong>ABOUT US</strong></a>
-        <a class="col ms-md-5"><strong>CONTACT</strong></a>
+        <a class="col ms-md-5" href="{{("/portofolio")}}"><strong>PORTOFOLIO</strong></a>
+        <a class="col ms-md-5" href="{{("/about")}}"><strong>ABOUT US</strong></a>
+        <a class="col ms-md-5" href="{{("/contact")}}"><strong>CONTACT</strong></a>
     </div>
 </div>
 

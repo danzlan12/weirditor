@@ -30,7 +30,7 @@
             <p class="text-muted justify-content-center"><br><br>Our exterior design project at the Luciana Hotel in Buena Vesta, Rio De Janeiro showcases the striking beauty of geometrical patterns. Our team of designers has seamlessly integrated these patterns into the hotel's façade to create a bold and unique statement. The use of geometrical patterns has allowed us to create a contemporary, dynamic design that reflects the hotel's modern and sophisticated vibe.
 
                 <br><br>In addition to being visually stunning, the geometrical patterns used in this project also serve a functional purpose. They enhance the structural integrity of the building and provide an additional layer of protection against the elements. The use of these patterns has also allowed us to create a sense of rhythm and movement, which adds an element of excitement and energy to the building's overall design.
-                
+
                 <br><br>Our team of designers has carefully selected each pattern, ensuring that it complements the building's existing architecture and enhances the hotel's overall aesthetic appeal. We are proud to have been a part of the design process for the Luciana Hotel, and we are confident that our use of geometrical patterns has helped to create a striking, functional, and beautiful space.</p></div>
 
     </div>
@@ -59,16 +59,16 @@
 @section('footer')
 <div class="container mt-5">
     <div class="row">
-        <div class="col"><h5><img class="mb-2" src="{{asset('img/logo.png')}}" alt=""> <strong>L-Studio</strong></h5></div>
+        <div class="col"><h5><img class="mb-2" src="{{asset('img/logo.png')}}" alt=""> <strong>L-Studio</strong></h5><h6 class="text-muted">Designs that are as functional as they are <br> beautiful, Crafting spaces that leave <br> a lasting impression.</h6></div>
         <div class="col"><h6><strong>Address :</strong></h6><h5><strong>7051 Durham Court Rego Park, NY 11374</strong></h5></div>
         <div class="col"><h6><strong>Work time :</strong></h6><h5><strong>Monday - Friday, </strong></h5><h5><strong>08.00 A.M - 05.00 P.M</strong></h5></div>
     </div>
 <div class="garis-hitam">
     <div class="text-center mt-5 mb-5">
-        <a class="col" href="{{("/")}}"><strong>HOME</strong> </a>
+        <a class="col " href="{{("/")}}"><strong>HOME</strong> </a>
         <a class="col ms-md-5" href="{{("/portofolio")}}"><strong>PORTOFOLIO</strong></a>
-        <a class="col ms-md-5"><strong>ABOUT US</strong></a>
-        <a class="col ms-md-5"><strong>CONTACT</strong></a>
+        <a class="col ms-md-5" href="{{("/about")}}"><strong>ABOUT US</strong></a>
+        <a class="col ms-md-5" href="{{("/contact")}}"><strong>CONTACT</strong></a>
     </div>
 </div>
 

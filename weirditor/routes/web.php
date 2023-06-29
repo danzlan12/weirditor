@@ -25,5 +25,13 @@ Route::get('/portofolio', function () {
 Route::get('/about', function () {
     return view('aboutus');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/portofolio/1', function () {
+    return view('detailPortofolio1');
+});
 //('/portofolio/1', [PortofolioController::class]);
 
